@@ -23,13 +23,13 @@ document.body.appendChild(peopleArray);*/
 var instruments = ["violin", "guitar", "drum"];
 var gifts = ["gold", "garbage", "spaceship"];
 var kills = ["Pope", "Isabel Queen", "President"];
-//var imgIns = ["images/drum.jfif", "images/guitar.jfif", "images/violin.jfif"];
+var imgIns = ["images/drum.jfif", "images/guitar.jfif", "images/violin.jfif"];
 var randomNumber = Math.floor(Math.random() * instruments.length);
 
 var instName = instruments[randomNumber];
 var gitName = gifts[randomNumber];
 var kilName = kills[randomNumber];
-//var imains = imgIns[randomNumber];
+var imains = imgIns[randomNumber];
 
 //document.write("Would you like to learn play <strong>" + instName + "</strong>" + " win a lot of <strong>" + gitName + "</strong>" + " and try kill to <strong>" + kilName + "</strong>");
 
